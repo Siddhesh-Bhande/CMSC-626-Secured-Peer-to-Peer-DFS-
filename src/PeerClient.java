@@ -441,12 +441,15 @@ public class PeerClient {
 
     public void displayHelp() {
         System.out.println(
-                "1. Create - create a file with the given name and given data" + "\n" +
-                "2. Read - read a file with the given name" + "\n" +
-                "3. Write - Replace the contents of the file with new given data" + "\n" +
-                "4. Update - Append new content to the existing contents of the file" + "\n" +
-                "5. Delete - Delete the file" + "\n" +
-                "6. Restore - Restore the file"
+                "1. Create file - create a file with the given name and given data" + "\n" +
+                "2. Create Directory - create a new directory with the given name"  + "\n" +
+                "3. Read file - read a file with the given name" + "\n" +
+                "4. Write file - Replace the contents of the file with new given data" + "\n" +
+                "5. Update file - Append new content to the existing contents of the file" + "\n" +
+                "6. Delete file - Delete the file" + "\n" +
+                "7. Restore file - Restore the file" + "\n" +
+                "8. Delegate Permissions - Delegate read,write and delegate permissions to a given peer" + "\n" +
+                "9. Generate RSA Pair - Generate a new pair of Public and Private keys and register the Public key with Master Server"
         );
     }
 }
